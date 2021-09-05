@@ -1,0 +1,91 @@
+@font-face{
+	font-family: circularR;
+	src: url('texts/circularR.otf');
+}
+
+@font-face{
+	font-family: circularB;
+	src: url('texts/circularB.otf');
+}
+
+body{
+	background-color: black;
+}
+
+.name{
+	font-family: circularB;
+	color: white;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 40px;
+}
+
+.game-container{
+	display: grid;
+	background-color: white;
+	grid-template-columns: auto auto auto;
+	grid-gap: 3px;
+	height: 306px;
+	width: 306px;
+	margin: auto;
+}
+
+.game-box{
+	background-color: black;
+	height: 100px;
+	width: 100px;
+	cursor: pointer;
+}
+
+.circle{
+	color: white;
+	font-family: circularB;
+	font-size: 80px;
+	text-align: center;
+	display: none;
+}
+
+.cross{
+	color: white;
+	font-family: circularB;
+	font-size: 80px;
+	text-align: center;
+	display: none;
+}
+
+.points-container{
+	display: grid;
+	background-color: black;
+	grid-template-columns: auto auto auto;
+	grid-gap: 3px;
+	height: 80px;
+	width: 306px;
+	margin: auto;	
+	font-family: circularB;
+	font-size: 17px;
+	color: white;
+	padding-top: 40px;
+}
+
+.player-1{
+	text-align: center;
+	height: 100px;
+	width: 100px;
+}
+
+.tie{
+	text-align: center;
+	height: 100px;
+	width: 100px;
+}
+
+.player-2{
+	text-align: center;
+	height: 100px;
+	width: 100px;
+}
+
+.heading{
+	margin-bottom: 10px;
+}
+
